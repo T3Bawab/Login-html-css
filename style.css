@@ -1,0 +1,130 @@
+body {
+	background: linear-gradient(90deg, #452c63, #4B0082, #33006F, #662d91);
+	background-size: 300% 300%;
+	animation: animation 10s infinite ease-in-out;
+}
+
+
+@keyframes animation {
+	0% {
+		background-position: 0 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0 50%;
+	}
+}
+
+h1 {
+
+	font-style: "PT Serif";
+	/* font-family: 'Orbitron', sans-serif; */
+	color: #FFD54F;
+	font-size: 1.55em;
+	text-align: center;
+	text-shadow: 5px 2px 4px #000000;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0.5px;
+}
+
+
+#imgGIF {
+	/* position: absolute fixed; */
+	position: absolute;
+	top: 22%;
+	left: 48.5%;
+	transform: translate(-50%, -50%);
+	max-width: 30%;
+	height: 30%;
+	width: 30%;
+	display: block;
+	margin: 5px;
+	border-radius: 10px;
+	/* float: ; */
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.form {
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border-radius: 10px;
+	padding: 20px 40px;
+	background-color: rgba(245, 245, 245, 0.034);
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.192);
+	transition: .2s linear;
+}
+
+.form button {
+	align-self: flex-end;
+}
+
+.form:hover {
+	transform: scale(1.1);
+}
+
+.label {
+	font-style: "PT Serif";
+	/* font-family: 'Orbitron', sans-serif; */
+	color: #FFD54F;
+	font-size: 1.55em;
+	text-align: center;
+	text-shadow: 5px 2px 4px #000000;
+	letter-spacing: 0.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0.5px;
+	color: wheat;
+	font-size: 14px;
+	margin-bottom: -10.6px;
+}
+
+.input {
+	height: 20px;
+	width: 100%;
+	border: 0.5px solid white;
+	background-color: transparent;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	transition: .2s linear;
+	position: relative;
+}
+
+.input:focus {
+	outline: none;
+	background-color: rgba(173, 173, 173, 0.233);
+	box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.137);
+}
+
+button {
+
+	color: black;
+	/* font-size: 1.55em; */
+	font-style: italic;
+	border: none;
+	padding: 4px 10px;
+	border-radius: 5px;
+	transition: .2s linear;
+}
+
+button:hover {
+	background-color: rgba(255, 255, 255, 0.74);
+	box-shadow: 2px 2px 10px rgba(124, 124, 124, 0.192);
+}
+
+
+.content {
+	position: absolute;
+	top: 200px;
+	left: 330px;
+}
